@@ -1,0 +1,22 @@
+.row {
+    background-color: rgb(107, 111, 116);
+}
+
+.card {
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 8rem;
+    width: 9rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #374f69;
+    border-color: #007bff;
+}

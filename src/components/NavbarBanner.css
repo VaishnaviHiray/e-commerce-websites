@@ -1,0 +1,58 @@
+.navbarBanner {
+    background-color: #0f1111;
+    padding: 0 0 0 11px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.navbarBannerleft {
+    display: flex;
+}
+
+.optionsnavbar {
+    display: flex;
+    /* padding: 8px 9px; */
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    &:hover {
+        border: 1px solid;
+        /* border-radius: 3px; */
+    }
+}
+
+.allOptionsnavbar {
+    font-size: 14px;
+    /* padding-left: 5px; */
+}
+
+.navbarBannerright {
+    &:hover {
+        height: 50px;
+        width: 40px;
+        border: 1px solid;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+
+.brand-Image {
+    display: block;
+    height: 100%;
+}
+
+.brand-Image {
+    padding: 0 0 0 11px;
+    display: flex;
+    height: 39px;
+    justify-content: space-between;
+}
+
+.form-select {
+    background-color: #0f1111;
+    padding: 7px;
+    color: white;
+}
